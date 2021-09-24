@@ -1,0 +1,58 @@
+/****  GLOBAL  ****/
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+
+/** LAYOUT **/
+/* .page {
+  display: flex;
+} */
+
+
+/****  HEADER  ****/
+/** HEAD **/
+.head {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.account {
+  text-align: right;
+}
+/** BOXBAR **/
+.boxBar {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.box {
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-radius: 25px 25px 0px 0px;
+}
+.active {
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+
+
+/****  BOX  ****/
+/** MAILBOX **/
+.mailbox {
+  min-height: 1000px;
+  width: 99%;
+  background-color: rgb(105, 105, 105);
+  border-right: 1px solid black;
+}
+.read {
+  color: white;
+}
+.un {
+  color: black;
+}
